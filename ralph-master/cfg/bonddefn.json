@@ -1,0 +1,17 @@
+{
+    "id": "bonds_static",
+    "primaryKey": {
+        "recSrcFile": "DisplayName",
+        "recTestFile": "DisplayLabel"
+    },
+    "mappings": [
+        { "Generator": "Generator", "diffExpected": true },
+        { "SecGroup": "SecGroup" },
+        { "SecType": "SecType" },
+        { "Coupon": "Coupon" },
+        { "Market": "Market", "diffExpected": true },
+        { "FixFloat": "FixFloat" },
+        { "Isin": "Isin" },
+        { "Cusip": "Cusip" }
+    ]
+}
